@@ -1,23 +1,66 @@
-Submission Note – Backend Developer Intern Assessment (Ref ID: TETB76R9)
+# 🏫 Smart Juniors School Management System
 
-This submission includes a real-world backend project developed as part of a team for a school client. 
-The system is currently live and actively used in a production environment.
+A dynamic **School Management Website** built using **PHP, MySQL, HTML, CSS, and JavaScript**.  
+This project allows administrators to manage school content such as events, gallery, and notices through an admin panel, while users can view updated information in real time.
 
-My contribution to the project involved extensive work across frontend, backend, and database development. 
-I was responsible for developing the admin panel, implementing backend logic for dynamic data handling, 
-and designing as well as managing the database. 
-I also contributed to improving the frontend to enhance usability and overall user experience.
+---
 
-In addition, I served as the team lead, coordinating tasks, resolving technical challenges, and ensuring smooth integration 
-between all system components.
+## 📝 About the Project
 
-While the assignment focuses on a finance-based system with role-based access, this project demonstrates similar backend concepts 
-such as CRUD operations, structured data management, and application logic. 
-Relevant feature mapping has been considered while preparing this submission.
+This project demonstrates the use of **Core PHP and MySQL** to build a dynamic, database-driven web application.
 
-Due to upcoming university examinations starting from 15th April, along with ongoing academic project commitments, 
-I have submitted this existing project instead of developing a new one from scratch.
+It follows a structured approach where:
+- Backend handles server-side logic and database interaction
+- Admin panel provides full control over content management
+- Frontend dynamically displays updated data to users
 
-I would be happy to extend or modify this project further if required.
+This project was developed as part of a **real-world client-based implementation**.
 
-Thank you for your time and consideration.
+---
+
+## ✨ Features
+
+- Admin login system
+- Add, delete and manage events
+- Upload and manage images/videos in gallery
+- Add and delete notices
+- Dynamic content display using PHP & MySQL
+- File upload system for media
+- Organized folder structure
+- Responsive frontend design
+
+---
+
+## 🛠️ Technologies Used
+
+- **PHP** – Backend logic
+- **MySQL** – Database management
+- **HTML5** – Structure
+- **CSS3** – Styling
+- **JavaScript** – Interactivity
+- **XAMPP** – Local development environment (Apache + MySQL)
+
+---
+
+## 🎯 How It Works
+
+- Admin logs into the admin panel
+- Admin can add, update, or delete events, notices, and gallery items
+- Data is stored in the MySQL database
+- Frontend pages fetch and display data dynamically using PHP
+- Users can view updated content without manual changes
+
+---
+
+## 📂 Project Structure
+
+```text
+smartjunior/
+│
+├── admin/          → Admin panel files
+├── includes/       → Database connection
+├── uploads/        → Stored images and videos
+├── index.php       → Homepage
+├── about.php
+├── gallery.php
+├── events.php
